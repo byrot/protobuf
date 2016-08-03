@@ -653,7 +653,7 @@ class DescriptorPool(object):
           field_proto.type == descriptor.FieldDescriptor.TYPE_FLOAT):
         field_desc.default_value = 0.0
       elif field_proto.type == descriptor.FieldDescriptor.TYPE_STRING:
-        field_desc.default_value = u''
+        field_desc.default_value = ''
       elif field_proto.type == descriptor.FieldDescriptor.TYPE_BOOL:
         field_desc.default_value = False
       elif field_proto.type == descriptor.FieldDescriptor.TYPE_ENUM:

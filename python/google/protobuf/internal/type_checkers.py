@@ -187,7 +187,7 @@ class UnicodeValueChecker(object):
     return proposed_value
 
   def DefaultValue(self):
-    return u""
+    return ''
 
 
 class Int32ValueChecker(IntValueChecker):
